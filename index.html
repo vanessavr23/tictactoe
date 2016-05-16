@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tic tac toe</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    </head>
+    <body>
+        <header>
+            <h1>Tic tac toe</h1>
+        </header>
+        <section>
+            <div class="row">
+                <div class="col-md-6">
+                    <table id="body1">
+                        <tr>
+                            <td><button id="b11" class="buttons" name="b1" onclick="actions(this)"></button></td>
+                            <td><button id="b12" class="buttons" name="b2" onclick="actions(this)"></button></td>
+                            <td><button id="b13" class="buttons" name="b3" onclick="actions(this)"></button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="b21" class="buttons" name="b4" onclick="actions(this)"></button></td>
+                            <td><button id="b22" class="buttons" name="b5" onclick="actions(this)"></button></td>
+                            <td><button id="b23" class="buttons" name="b6" onclick="actions(this)"></button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="b31" class="buttons" name="b7" onclick="actions(this)"></button></td>
+                            <td><button id="b32" class="buttons" name="b8" onclick="actions(this)"></button></td>
+                            <td><button id="b33" class="buttons" name="b9" onclick="actions(this)"></button></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <div></div>
+                </div>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-2.2.2.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+h1{
+	margin-left: 100px;
+}
+
+
+td button{
+	width: 100px;
+	height: 100px;
+	background-color: #000;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin: 10px;
+	color: white;
+	font-size: 30px;
+}
